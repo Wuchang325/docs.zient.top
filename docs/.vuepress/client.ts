@@ -6,6 +6,7 @@ import { defineClientConfig } from 'vuepress/client'
 
 // import CustomComponent from './theme/components/Custom.vue'
 
+//import Linkcard from './theme/components/Linkcard.vue'
 import './theme/styles/custom.css'
 
 export default defineClientConfig({
@@ -18,5 +19,6 @@ export default defineClientConfig({
 
     // your custom components
     // app.component('CustomComponent', CustomComponent)
+    //app.component('Linkcard', Linkcard)
   },
 })

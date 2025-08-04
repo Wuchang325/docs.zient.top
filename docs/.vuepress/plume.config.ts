@@ -42,7 +42,7 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
    footer: {
-     message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
+     message: '基于 <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> 构建 & 使用 <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a> 主题',
      copyright: '',
    },
 
