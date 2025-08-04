@@ -12,9 +12,9 @@ config:
         -
           theme: brand
           text: 快速开始 →
-          link: /guide/intro/
+          link: /guide/
         -
           theme: alt
           text: Github
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/Wuchang325/docs.zient.top
 ---
