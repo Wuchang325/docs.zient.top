@@ -32,9 +32,9 @@ export default defineUserConfig({
     hostname: 'https://docs.zient.top',
 
     /* 文档仓库配置，用于 editLink */
-    // docsRepo: '',
-    // docsDir: 'docs',
-    // docsBranch: '',
+     docsRepo: 'Wuchang325/docs.zient.top',
+     docsDir: 'docs',
+     docsBranch: 'main',
 
     /* 页内信息 */
     editLink: true,
