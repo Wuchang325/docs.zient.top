@@ -1,50 +1,35 @@
 :root {
-  /** 主题颜色 */
+  /* 主色：薄荷蓝 → 空灵治愈 */
+  --vp-c-brand-1: #6ecff6;
+  --vp-c-brand-2: #8ddbff;
+  --vp-c-brand-3: #b5e9ff;
+  --vp-c-brand-soft: rgba(141, 219, 255, 0.25);
 
-  /*
-  --vp-c-brand-1: #5086a1;
-  --vp-c-brand-2: #6aa1b7;
-  --vp-c-brand-3: #8cccd5;
-  --vp-c-brand-soft: rgba(131, 208, 218, 0.314);
-  */
+  /* 背景：柔白 → 干净温暖 */
+  --vp-c-bg: #fafbfd;
+  --vp-c-bg-alt: #f5f7fa;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-soft: #f0f4f8;
 
-  /** 背景颜色 */
-
-  /*
-  --vp-c-bg: #fff;
-  --vp-c-bg-alt: #f6f6f7;
-  --vp-c-bg-elv: #fff;
-  --vp-c-bg-soft: #f6f6f7;
-  */
-
-  /** 文本颜色 */
-
-  /*
-  --vp-c-text-1: rgba(60, 60, 67);
-  --vp-c-text-2: rgba(60, 60, 67, 0.78);
-  --vp-c-text-3: rgba(60, 60, 67, 0.56);
-  */
+  /* 文本：雾灰 → 轻盈易读 */
+  --vp-c-text-1: #2c3e50;   /* 主标题 */
+  --vp-c-text-2: #566573;   /* 正文 */
+  --vp-c-text-3: #8595a6;   /* 注释/次级 */
 }
 
-/** 深色模式 */
+/* 深色模式：雾紫夜空 + 薄荷星光 */
 [data-theme="dark"] {
-  /*
-  --vp-c-brand-1: #8cccd5;
-  --vp-c-brand-2: #6aa1b7;
-  --vp-c-brand-3: #5086a1;
-  --vp-c-brand-soft: rgba(131, 208, 218, 0.314);
-  */
+  --vp-c-brand-1: #9bb8ff;  /* 雾紫高光 */
+  --vp-c-brand-2: #6ecff6;  /* 薄荷星光 */
+  --vp-c-brand-3: #8ddbff;
+  --vp-c-brand-soft: rgba(155, 184, 255, 0.22);
 
-  /*
-  --vp-c-bg: #1b1b1f;
-  --vp-c-bg-alt: #161618;
-  --vp-c-bg-elv: #202127;
-  --vp-c-bg-soft: #202127;
-  */
+  --vp-c-bg: #1a1d29;
+  --vp-c-bg-alt: #13151e;
+  --vp-c-bg-elv: #202336;
+  --vp-c-bg-soft: #252840;
 
-  /*
-  --vp-c-text-1: rgba(255, 255, 245, 0.86);
-  --vp-c-text-2: rgba(235, 235, 245, 0.6);
-  --vp-c-text-3: rgba(235, 235, 245, 0.38);
-  */
+  --vp-c-text-1: #e4e8ff;
+  --vp-c-text-2: #b8c0ff;
+  --vp-c-text-3: #8892cc;
 }
