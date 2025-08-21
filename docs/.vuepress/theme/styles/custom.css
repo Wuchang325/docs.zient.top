@@ -1,9 +1,9 @@
 :root {
-  /* 主色：薄荷蓝 → 空灵治愈 */
-  --vp-c-brand-1: #6ecff6;
-  --vp-c-brand-2: #8ddbff;
-  --vp-c-brand-3: #b5e9ff;
-  --vp-c-brand-soft: rgba(141, 219, 255, 0.25);
+  /* 薄荷雾蓝 → 克制、治愈 */
+  --vp-c-brand-1: #7ab4d6;   /* ↓ 纯度 */
+  --vp-c-brand-2: #9bc7e4;
+  --vp-c-brand-3: #bbd9ef;
+  --vp-c-brand-soft: rgba(155, 199, 228, 0.25);
 
   /* 背景：柔白 → 干净温暖 */
   --vp-c-bg: #fafbfd;
@@ -17,12 +17,16 @@
   --vp-c-text-3: #8595a6;   /* 注释/次级 */
 }
 
+a {
+  text-decoration: none !important;
+}
+
 /* 深色模式：雾紫夜空 + 薄荷星光 */
 [data-theme="dark"] {
-  --vp-c-brand-1: #9bb8ff;  /* 雾紫高光 */
-  --vp-c-brand-2: #6ecff6;  /* 薄荷星光 */
-  --vp-c-brand-3: #8ddbff;
-  --vp-c-brand-soft: rgba(155, 184, 255, 0.22);
+  --vp-c-brand-1: #8fa8e6;   /* 雾紫高光 ↓ 纯度 */
+  --vp-c-brand-2: #7ab4d6;   /* 薄荷星光 ↓ 纯度 */
+  --vp-c-brand-3: #9bc7e4;
+  --vp-c-brand-soft: rgba(143, 168, 230, 0.22);
 
   --vp-c-bg: #1a1d29;
   --vp-c-bg-alt: #13151e;

@@ -43,7 +43,7 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
    footer: {
-     message: '基于 <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> 构建 & 使用 <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a> 主题',
+     message: '基于 <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> 驱动，  主题采用 <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a><br> 版权所有 © 2025 辰砂屿服务器  |  <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">冀ICP备2025114767号-1</a>',
      copyright: '',
    },
 
@@ -54,9 +54,9 @@ export default defineThemeConfig({
     avatar: './favicon.ico',
     name: '辰砂屿·文档站',
     description: 'Minecraft公益服务器',
-    // circle: true,
-    // location: '',
-    // organization: '',
+    circle: true,
+    location: '河北',
+    organization: '辰砂屿服务器',
   },
 
   navbar,
@@ -67,12 +67,12 @@ export default defineThemeConfig({
    * 公告板
    * @see https://theme-plume.vuejs.press/guide/features/bulletin/
    */
-  // bulletin: {
-  //   layout: 'top-right',
-  //   contentType: 'markdown',
-  //   title: '公告板标题',
-  //   content: '公告板内容',
-  // },
+   bulletin: {
+     layout: 'top-right',
+     contentType: 'markdown',
+     title: '公告',
+     content: '当前文档开发中',
+   },
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
    transition: {
